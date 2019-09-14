@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pinyougou-order-interface:war">
+    <output-path>$PROJECT_DIR$/pinyougou-order-interface/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pinyougou-order-interface</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pinyougou-order-interface-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="pinyougou-order-interface:war exploded" />
+    </root>
+  </artifact>
+</component>

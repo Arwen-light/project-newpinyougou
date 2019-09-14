@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webcasdemo:war">
+    <output-path>$PROJECT_DIR$/../webcasdemo/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>webcasdemo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="web.cas.demo-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="webcasdemo:war exploded" />
+    </root>
+  </artifact>
+</component>
